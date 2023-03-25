@@ -1,7 +1,7 @@
 package grebenkinvd.connection;
 
 public enum P2PStatus {
-    FREE,
-    PARING,
+    NOT_CONNECTED,
+    CONNECTION_FAILED,
     CONNECTED
 }
